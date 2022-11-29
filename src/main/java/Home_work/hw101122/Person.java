@@ -4,13 +4,8 @@ public class Person {
     private String fullName;
     private int age;
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+    //--------Konstuktor----------
 
     public void move(){
         System.out.println(fullName+" move");
@@ -25,6 +20,17 @@ public class Person {
 
     public Person(String fullName, int age) {
         this.fullName = fullName;
+        this.age = age;
+    }
+
+
+    //--------SETter---------------
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setAge(int age) {
         this.age = age;
     }
 }

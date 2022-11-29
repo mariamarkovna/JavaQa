@@ -25,11 +25,12 @@ public class Phone {
     }
 
     public void receiveCall(String name){
-       name=name;
-        System.out.println("Call "+name);
+        System.out.println("Call "+name +" " + getNumber());
     }
 
     public void printData(){
         System.out.println("number: "+ getNumber()+"; "+ " model: "+ getModel()+"; "+"weight:"+" "+ getWeight()+" gr;");
     }
+
+
 }
